@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal website featuring Itoshi Sae, a prodigy football player from Japan.">
+    <meta name="keywords" content="Itoshi Sae, football, soccer, Blue Lock, Japan, midfielder, striker">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Itoshi Sae - Personal Website">
+    <meta property="og:description" content="Learn more about Itoshi Sae, his journey, and his football career.">
+    <meta property="og:image" content="Sae_Itoshi.webp">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Itoshi Sae - Personal Website">
+    <meta name="twitter:description" content="A dedicated website for football prodigy Itoshi Sae.">
+    <meta name="twitter:image" content="Sae_Itoshi.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <title>My Personal Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            background: linear-gradient(to right, #00FFFF, #FF69B4);
+            color: white;
+        }
+
+        /* Header */
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            color: black;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Navigation Bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #FF69B4;
+            border-radius: 10px;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: #00FFFF;
+            color: black;
+        }
+
+        .topnav a.right {
+            float: right;
+        }
+
+        /* Layout */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .leftcolumn {
+            flex: 3;
+            padding: 10px;
+        }
+
+        .rightcolumn {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        /* Cards */
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: black;
+        }
+
+        /* Image Styling */
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            margin-top: 20px;
+            border-radius: 10px;
+            color: black;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 800px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .leftcolumn, .rightcolumn {
+                flex: 100%;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Itoshi Sae</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <img src="Sae_Itoshi.webp" alt="Header Image" width="250px">
+    </div>
+
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#" class="right">Contact</a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Itoshi Sae's Flow</h2>
+                <h5>25427817327289193892</h5>
+                <img src="Itoshi_Sae.jpg" width="100" height="1000">
+                <p>A mental state where a person is fully immersed in an activity, feeling energized, focused, and involved. </p>
+            </div>
+
+            <div class="card">
+                <h2>Title Heading</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <img src="Sae_Itoshi4.jpg" alt="Article Image">
+                <p>Sae's Goal in Life</p>
+                <p>Sae's main goal before the start of the series was to become the best striker in the world, and in turn, the best player in the world, but after leaving Japan and experiencing the professional league in Spain, he changed his dream to becoming the best midfielder in the world after he realized how truly weak Japanese football is.</p>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <img src="sae_itoshi2.jpg" alt="About Me Image">
+                <p>Sae Itoshi (糸いと師し 冴さえ Itoshi Sae?) is a prodigy football player, who is known as the best player in Japan. Sae is also a member of the New Generation World XI, as well as the Re Al youth team. He is the older brother of Rin Itoshi.</p>
+            </div>
+
+            <div class="card">
+                <h3>Popular Post</h3>
+                <img src="itoshi_sae3.jpg" alt="Popular Post ">
+            </div>
+
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>@Itoshi_Sae2453728172392743</p>
+                <img src="Instagram_logo.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>End of Page</h2>
+        <img src="itoshi_sae6.jpg">
+    </div>
+
+</body>
+</html>
